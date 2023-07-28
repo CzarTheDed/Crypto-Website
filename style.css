@@ -1,0 +1,418 @@
+body {
+    margin: 0;
+    padding: 0;
+    
+}
+
+@font-face {
+    font-family: MyFonts;
+    src:url(firs.ttf)
+}
+
+
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+h1 {
+    font-family: MyFonts;
+    src: url(firs.ttf);
+    
+}
+
+p {
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+h3 {
+    font-family: MyFonts;
+}
+
+a {
+    font-family: MyFonts;
+    font-size: small;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    font-size: larger;
+    font-weight: bold;
+    
+}
+
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid red;
+}
+
+.navlinks {
+    margin-top: 20px;
+}
+
+.navlinks a {
+    
+    margin: 25px;
+    margin-left: 10px;
+    margin-right: 10px;
+    text-decoration: none;
+    color: black;
+    
+    
+    
+}
+.nav img {
+    margin-top: 0px;
+    width: 200px;
+    height: 75px;
+
+}
+
+
+
+
+
+.sign {
+    margin-top: 25px;
+}
+
+.sign a {
+    text-decoration: none;
+    margin-left: 15px;
+    margin-right: 15px;
+    color: black;
+}
+
+.sign a.create {
+    color: white;
+    background: rgb(72, 72, 219);
+    padding: 10px;
+    border-radius: 7px;
+}
+
+.back1 {
+    margin-top: 20px;
+    border-radius: 30px;
+    background-image: linear-gradient(to bottom right, rgb(238, 238, 248), rgb(241, 241, 248));
+}
+
+.section1 {
+    padding: 50px;
+    
+}
+.section1 span.neww {
+    background: rgb(72, 72, 219);
+    color: white;
+    padding: 8px;
+    border-radius: 15px;
+    text-transform: uppercase;
+}
+
+.section1 .bold h1 {
+    font-size: 75px;
+}
+
+.btns {
+    margin-top: 50px;
+    text-decoration: none;
+    font-weight:bold;
+    
+}
+
+.btns a.get {
+    
+     padding: 15px;
+     background-color: rgb(64, 64, 211);
+     color: white;
+     border-radius: 10px;
+     text-decoration: none;
+}
+
+.btns a.schedule{
+    text-decoration: none;
+    padding: 15px;
+    color: black;
+
+}
+
+.back1 {
+    display: flex;   
+}
+
+.sec-gif {
+    margin:auto;
+}
+
+
+
+
+.b2-head {
+    font-weight: bold;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    text-align: center;
+
+}
+
+.points {
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+}
+
+.point1 {
+    width: 250px;
+}
+
+.point2 {
+    width: 250px;
+}
+
+.point3 {
+    width: 250px;
+    
+}
+
+.points-cont {
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+}
+
+.point4 {
+    width: 250px;
+    
+}
+
+.point5 {
+    width: 250px;
+    
+}
+
+.back3 {
+    padding: 70px;
+}
+
+.b3-head {
+    font-size: 25px;
+}
+
+.b3-points {
+    width: 600px;
+    
+    
+}
+
+.b3-points .point1 {
+    width: fit-content;
+    font-size: 18px;
+    border-left: rgb(87, 87, 233) solid 5px ;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.b3-points .point2 {
+   width: fit-content;
+    font-size: 18px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.b3-points .point3 {
+    width: fit-content;
+    font-size: 18px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.b3-body {
+    display: flex;
+}
+
+.b3-pic img {
+    
+    width: 500px;
+    height: 500px;
+}
+
+.b4-point1 .write1 {
+    border: 0.1px rgb(173, 173, 255) solid;
+    border-radius: 10px;
+    padding: 20px;
+    width: 400px;
+    box-shadow: 0px 2px 5px;
+}
+
+.b4-point2 .write2 {
+    border: .5px rgb(173, 173, 255) solid;
+    border-radius: 10px;
+    padding: 20px;
+    width: 400px;
+    box-shadow: 0px 2px 5px;
+    
+}
+
+.b4-body {
+    display: flex;
+    padding: 100px;
+    justify-content: space-evenly;
+}
+
+.b4-head h1 {
+    text-align: center;
+    font-size: 50px;
+    font-weight: bolder;
+    padding-left: 250px;
+    padding-right: 250px;
+}
+
+.b5-head {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.b5-head h1 {
+    width: 1000px;
+    margin: auto;
+    font-weight: bold;
+    font-size: 40px;
+    margin-bottom: 50px;
+
+}
+
+.b5-head p {
+    width: 500px;
+    text-align: center;
+    margin: auto;
+}
+
+
+
+.b5-points {
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+}
+
+.b5-points .point1 {
+    width: 250px;
+}
+
+.b5-points .point2 {
+    width: 250px;
+}
+
+.b5-points .point3 {
+    width: 250px;
+    
+}
+
+.b5-points-cont {
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+}
+
+.b5-points-cont point4 {
+    width: 250px;
+    
+}
+
+.b5-points-cont point5 {
+    width: 250px;
+    
+}
+
+.back6 {
+    
+    margin-top: 250px;
+    margin-left: 100px;
+    margin-right: 100px;
+    
+    
+}
+
+.b6-body {
+    display: flex;
+    padding: 100px;
+    background-image: linear-gradient(to bottom right, rgb(238, 238, 248), rgb(241, 241, 248)) ;
+    border-radius: 25px;
+}
+
+.b6-body img {
+    width: 50%;
+}
+
+.b6-body .btn {
+    padding: 10px;
+    border: 1px blue solid;
+    width: 120px;
+    border-radius: 10px;
+    font-size: 15px;
+    
+}
+
+.b6-body a {
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.b6-write {
+    padding-left: 50px;
+}
+
+.back7 {
+    margin-top: 70px;
+    padding-left: 200px;
+    padding-right: 200px;
+}
+
+.b7-body {
+    
+    display: flex;
+    justify-content: space-between;
+    margin-top: 100px;
+}
+
+.b7-body .point1 {
+    box-shadow: 0px 1px 15px;
+    width: 40%;
+    padding: 30px;
+    border-radius: 30px;
+}
+
+.b7-body .point2 {
+    box-shadow: 0px 1px 15px;
+    width: 40%;
+    padding: 30px;
+    border-radius: 30px;;
+}
+
+.back8 {
+    display: flex;
+    margin-top: 100px;
+    padding-left:150px ;
+    padding-right: 200px;
+    font-size: 20px;
+}
+
+.back8 p {
+    margin-bottom: 30px;
+}
+
+    .back8 a {
+        
+        border-radius: 5px;
+        background-color: white;
+        padding: 10px;
+        font-size: 18px;
+        border: 2px blue solid;
+    }
+
